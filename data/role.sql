@@ -1,0 +1,10 @@
+insert into role (id, nom) values (1, 'nulla');
+insert into role (id, nom) values (2, 'posuere cubilia');
+insert into role (id, nom) values (3, 'consequat nulla');
+insert into role (id, nom) values (4, 'ac');
+insert into role (id, nom) values (5, 'eu');
+insert into role (id, nom) values (6, 'sit amet nunc');
+insert into role (id, nom) values (7, 'quis turpis sed');
+insert into role (id, nom) values (8, 'velit');
+insert into role (id, nom) values (9, 'nisl duis ac');
+insert into role (id, nom) values (10, 'libero');

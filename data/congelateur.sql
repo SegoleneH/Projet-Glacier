@@ -1,0 +1,10 @@
+insert into congelateur (id, nom, description) values (1, 'non', 'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.');
+insert into congelateur (id, nom, description) values (2, 'morbi non', 'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.');
+insert into congelateur (id, nom, description) values (3, 'eu', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.');
+insert into congelateur (id, nom, description) values (4, 'mi', 'Integer ac leo.');
+insert into congelateur (id, nom, description) values (5, 'enim blandit', 'Quisque id justo sit amet sapien dignissim vestibulum.');
+insert into congelateur (id, nom, description) values (6, 'quis', 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.');
+insert into congelateur (id, nom, description) values (7, 'felis ut', 'Phasellus sit amet erat.');
+insert into congelateur (id, nom, description) values (8, 'consequat nulla', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into congelateur (id, nom, description) values (9, 'nibh quisque', 'Nullam varius.');
+insert into congelateur (id, nom, description) values (10, 'integer', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');

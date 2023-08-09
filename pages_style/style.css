@@ -1,0 +1,112 @@
+:root{     
+    font-family: 'Montserrat', sans-serif;
+    --lightWhite: #f6fff8;
+    --white: #eaf4f4;
+    --lightGrey: #cce3de;
+    --grey: #a4c3b2;
+    --darkGrey: #6b9080;
+    --darkBlue: #278159;
+    --darkestGrey: #155539;
+    background-color: var(--lightWhite);
+}
+body{
+    margin: 0;
+    background: linear-gradient(var(--white) 0%, var(--lightWhite) 100%);
+}
+
+        /* HEADER */
+a{
+    color: var(--darkBlue);
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover {
+    color: var(--darkestGrey);
+}
+header{
+    background: linear-gradient(var(--darkGrey) 0%, var(--lightGrey) 50%, var(--white) 100%);
+    padding: 2vh 1vw;
+}
+navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 2em;
+    color: var(--darkestGrey);
+}
+
+        /* CONTENU : formulaires ou sections glaces*/
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+#ctnCartesParfum{
+    margin: 5vh auto;
+    flex-direction: row;
+}
+.carteParfum{
+    background-color: var(--lightGrey);
+    padding: 5vh 6vw;
+    border-radius: 25px;
+    height: 50vh;
+    margin: 0 auto;
+}
+h4{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+p{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+form>*{
+        margin: 0 auto;
+}
+fieldset{
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+}
+fieldset>*{
+    margin: 5vh auto;
+}
+input, select{
+    display: flex;
+    flex-wrap: wrap;
+}
+#submitButton{
+    font-size: 1em;
+    padding: 2vh 1vw;
+    background-color: var(--grey);
+    border: solid var(--grey) 2px;
+    border-radius: 5px;
+    margin: 2vh auto;
+}
+
+#submitButton:hover{
+    background-color: var(--darkestGrey);
+    border: solid var(--darkestGrey) 2px;
+    color: #ffff;
+}
+
+label>span{
+    font-size: 0.8em;
+}
+select{
+    width: 20vw;
+    height: 25px;
+}

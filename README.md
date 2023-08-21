@@ -27,7 +27,7 @@ Le client a besoin des fonctionnalités suivantes :
 
 - créer des comptes utilisateurs : email, mot de passe
 - créer des rôles : nom
-- associer un compte utilisateur avec **des** rôles
+- associer un compte utilisateur avec **des** rôles (inverse possible 1 rôle pour plusieurs utilisateurs)
 - créer des congélateurs : nom (le nom indique l'emplacement), description
 - associer un congélateur et **un** compte utilisateur (qui en sera responsable)
 - créer des parfums : nom, description
